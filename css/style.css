@@ -1,0 +1,117 @@
+.bmw {
+    background-color: aqua;
+    font-size: 20px;
+}
+
+
+.yobitch {
+    background-color: purple;
+    font-size: 17px;
+}
+
+.hmm {
+    font-size: 40px;
+    background-color: chartreuse;
+    -webkit-transform: translateX(-10%);
+    transform: translateX(-10%);
+    font-style: italic;
+    font-weight: 450;
+    font-family: Pacifico;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.ab {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    text-shadow: 2px;
+    text-decoration: line-through;
+    text-transform: full-width;
+    color: brown;
+}
+
+.abc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+h1,
+#new {
+    font-size: 45px;
+    font-family: "Raleway";
+    text-align: center;
+    border: 5px solid rgba(255, 176, 170, 0.5);
+}
+
+#preloader {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 9999;
+}
+
+#plstatus {
+    background-image: url("../img/WhatsAppVideo2019-08-15at74606PM.gif");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+}
+
+#home {
+    position: absolute;
+}
+
+#home-bg-vid {
+    position: relative;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.hd {
+    width: 200px;
+    margin: 0 auto;
+    height: 150px;
+    border-radius: 200px 200px 0 0;
+    margin-bottom: 10px;
+    background-color: aqua;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.hd:hover {
+    width: 250px;
+}
+
+hr {
+    border-color: black;
+    border-width: 3px;
+    max-width: 70px;
+}
