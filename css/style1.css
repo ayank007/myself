@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.cover {
+    
+    margin-left: 20px;
+    margin-right: 50vh;
+
+    border: 0px;
+    padding-left: 5px;
+}
+
+.zone {
+    border: 0px solid;
+    margin: 15px;
+}
+
+ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    background-color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    padding: 5px;
+    color: white;
+}
+
+li:hover {
+    cursor: pointer;
+    -webkit-box-shadow: gray 0px 5px 15px;
+    box-shadow: gray 0px 5px 15px;
+    text-decoration: underline;
+}
+
+.end {
+
+    margin-left: auto;
+}
+
+form {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.box {
+    margin-right: auto;
+    margin-left: 10px;
+}
+.abc{
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
