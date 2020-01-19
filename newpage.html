@@ -5,27 +5,45 @@
     <title>
         Yohohoho
     </title>
+    <link rel="stylesheet" href="css/style1.css">
 </head>
 
 <body>
-    <form method="get">
-        First Name : <input type="text" name="fname"><br><br>
-        Last Name : <input type="text" name="lname">
-        <br><br>
-        email : <input type="email" name="email">
-        <br><br>
-        Birthdate : <input type="date" name="bd">
-        <br><br>
-        Password : <input type="password" name="Password"><br><br>
-        Gender : <br><input type="radio" value="male" name="Gender"> Male
-        <br>
-        <input type="radio" value="female" name="Gender"> Female
-        <br>
-        <hr>
-        <a href="index.html"><input type="submit" value="Register">
-        </a>
-        <input type="reset">
-    </form>
+    
+    <nav class="zone">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li> <a href="">Terms and Condition</a></li>
+            <li><a href="">About</a></li>
+            <li class="end"><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="cover">
+        <form method="get">
+
+            <div class="abc">
+                <div class="txt">
+                    First Name :
+                    <br>Last Name :
+                    <br>Email :
+                    <br>Birthdate :
+                    <br>Password :
+                    <br>Gender :
+                </div>
+                <div class="box">
+                    <input type="text">
+                    <br><input type="text">
+                    <br><input type="email">
+                    <br><input type="date">
+                    <br><input type="password">
+                    <br><input type="radio" name="gender"> <span aria-hidden="true" style="opacity: 1;">Male</span>
+                    <br><input type="radio" name="gender"> Female
+                </div>
+            </div>
+            <input type="submit" value="Register" class="t">
+            <input type="reset" value="reset" class="t">
+        </form>
+    </div>
 </body>
 
 </html>
